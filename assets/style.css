@@ -7,6 +7,25 @@
 	height: 100vh;
     background-color: black;
     padding-top: 3rem;
+    position: relative;
+ }
+ .head-cmd {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    background-color: gray;
+    border-radius: 0.2rem;
+ }
+ .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 0.8rem;
+    background-color: gray;
+    border-radius: 0.2rem;
  }
  .contents {
 	display: flex;
@@ -43,15 +62,10 @@
 }
 .cmd-sx {
     display: flex;
-    
-    
-    
 }
 .cmd-cnt {
     display: flex;
-   
     margin-right: 25rem;
-    
 }
 .cmd-dx {
     border: 1px solid gray;
@@ -85,5 +99,8 @@
     cursor: pointer;
 }
 .cmd-dx:hover {
+    cursor: pointer;
+}
+.close:hover {
     cursor: pointer;
 }
