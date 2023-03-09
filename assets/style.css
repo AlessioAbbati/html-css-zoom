@@ -12,12 +12,24 @@
 	display: flex;
     justify-content: center;
 }
-img {
-    width: 12%;
+.photo {
+    background-image: url("https://fastly.picsum.photos/id/186/2048/1275.jpg?hmac=s7zZ_JZGEdO6Z5osibrSaE9roarIGV7aTEKJXacZi_U");
+    background-size: cover;
+    height: 6rem;
+    width: 10rem;
+    color: white;
+    position: relative;
     margin-top: 0.5rem;
     margin-right: 0.3rem;
-    
-}
+ }
+ p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-inline: 0.5rem;
+ }
+
 .footbar{
     height: 4.5rem;
     background-color: #222222;
