@@ -4,21 +4,62 @@
     box-sizing: border-box;
 }
  section {
-    position: relative;
 	height: 100vh;
     background-color: black;
-    
+    padding-top: 3rem;
  }
  .contents {
-	position: absolute;
-	top: 20%;
-	left: 20%;
-    right: 20%;
-    bottom: 20%;
-    transform: translate(-20%, -20%);
-    
+	display: flex;
+    justify-content: center;
 }
 img {
-    width: 15%;
+    width: 12%;
+    margin-top: 0.5rem;
+    margin-right: 0.3rem;
     
 }
+.footbar{
+    height: 4.5rem;
+    background-color: #222222;
+    margin-top: 1rem;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cmd-sx {
+    display: flex;
+    
+    
+}
+.cmd-cnt {
+    display: flex;
+    margin-right: 25rem;
+    
+}
+.cmd-dx {
+    border: 1px solid gray;
+    background-color: gray;
+    color: red;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+.cmd {
+    margin-left: 1rem;
+}
+p {
+    font-size: 0.8rem;
+}
+.ang {
+    font-size: 0.5rem;
+}
+
