@@ -22,12 +22,13 @@
     margin-top: 0.5rem;
     margin-right: 0.3rem;
  }
- p {
+ .name {
     position: absolute;
     left: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     padding-inline: 0.5rem;
+    font-size: 0.8rem;
  }
 
 .footbar{
@@ -44,9 +45,11 @@
     display: flex;
     
     
+    
 }
 .cmd-cnt {
     display: flex;
+   
     margin-right: 25rem;
     
 }
@@ -68,7 +71,7 @@
 .cmd {
     margin-left: 1rem;
 }
-p {
+.loghi {
     font-size: 0.8rem;
 }
 .ang {
